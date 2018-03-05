@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CloudDrive</class>
+ <widget class="QMainWindow" name="CloudDrive">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>640</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>640</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Cloud Drive</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background:url(/usr/local/apps/cloud drive/ui\ components/background);</string>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="dockOptions">
+   <set>QMainWindow::AllowNestedDocks|QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks</set>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="userImage">
+    <property name="geometry">
+     <rect>
+      <x>468</x>
+      <y>59</y>
+      <width>102</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: url(/usr/local/apps/cloud drive/ui\ components/userDefaultImage);
+border-radius: 50px;</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+   </widget>
+   <widget class="QWidget" name="logo" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>150</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:url(/usr/local/apps/cloud drive/ui\ components/logo);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="optionsWidget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>180</y>
+      <width>640</width>
+      <height>208</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget#optionsWidget{
+	background:url(/usr/local/apps/cloud drive/ui\ components/optionsBackground1);
+}
+QWidget#optionsWidget:hover{
+	background:url(/usr/local/apps/cloud drive/ui\ components/optionsBackground2);
+}
+QWidget#optionsWidget{
+	border-color:transparent
+}</string>
+    </property>
+    <widget class="QTextBrowser" name="optionsWidgetChild1">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>620</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextBrowser#optionsWidgetChild1{background:#fff;color:#a5a8ab;border:none}
+QTextBrowser#optionsWidgetChild1:hover{background:#eee;}
+</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#555753;&quot;&gt;    Start the Application at startup&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="optionsWidgetChild2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>70</y>
+       <width>620</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextBrowser#optionsWidgetChild2{background:#fff;border:none;color:#a5a8ab;}
+QTextBrowser#optionsWidgetChild2:hover{background:#eee;}
+</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#555753;&quot;&gt;    Show Notifications&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTextBrowser" name="optionsWidgetChild3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>120</y>
+       <width>620</width>
+       <height>55</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTextBrowser#optionsWidgetChild3{background:#fff;border:none;}
+QTextBrowser#optionsWidgetChild3:hover{background:#eee;}
+</string>
+     </property>
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Cantarell'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600; color:#555753;&quot;&gt;    Add bookmark to Nautilus&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox1">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>30</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+color:#c5c8cb;
+border:3px solid #c5c8cb;</string>
+     </property>
+     <property name="text">
+      <string>d</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>80</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+color:#c5c8cb;
+border:3px solid #c5c8cb;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>560</x>
+       <y>130</y>
+       <width>20</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:transparent;
+color:#ccc;
+border:3px solid #c5c8cb;</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="appDrawerButton">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>20</y>
+      <width>48</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QFrame#appDrawerButton{background:url(/usr/local/apps/cloud drive/ui\ components/appDrawerButton);}QFrame#appDrawerButton:hover{background:url(/usr/local/apps/cloud drive/ui\ components/appDrawerHoverButton);}</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quitButton">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>420</y>
+      <width>130</width>
+      <height>48</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#quitButton{border:2px solid #fff ;
+background: url(/usr/local/apps/cloud drive/ui\ components/exitButton);color:#fff}
+QPushButton#quitButton:hover{border:2px solid #fff ;
+background: url(/usr/local/apps/cloud drive/ui\ components/exitButtonHover);color:#fff;cursor:pointer}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="loginButton">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>420</y>
+      <width>141</width>
+      <height>46</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#loginButton{border:2px solid #fff ;
+background: url(/usr/local/apps/cloud drive/ui\ components/loginButton);color:#fff;text-align:left}
+QPushButton#loginButton:hover{
+background: url(/usr/local/apps/cloud drive/ui\ components/loginButtonHover);color:#fff;margin-top:2px;}</string>
+    </property>
+    <property name="text">
+     <string>       LOGOUT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="infoButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>431</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#infoButton{border:none;
+background: url(/usr/local/apps/cloud drive/ui\ components/infoButton);}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

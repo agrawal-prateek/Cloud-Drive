@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Categories=Utility;Utility;X-SuSE-DesktopUtility;
+Encoding=UTF-8
+Version=1.0
+Icon=/usr/share/icons/cloud-drive-icon.png
+Exec=/usr/local/apps/cloud\ drive/startup/cloud-drive-startup.sh
+Type=Application
+Terminal=false
+Comment=A startup launcher for Cloud Drive
+Name=Cloud Drive
+GenericName=Cloud Drive startup launcher
+StartupNotify=true

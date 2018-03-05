@@ -1,0 +1,9 @@
+{
+  "homeLocation": "/home/prateek",
+  "googleDriveLocation": "/home/prateek/Google Drive",
+  "startup": true,
+  "notifications": true,
+  "bookmark": true,
+  "currentDesktopToken": "3967",
+  "initialSync": true
+}

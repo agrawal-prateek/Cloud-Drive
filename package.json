@@ -1,0 +1,12 @@
+{
+  "name": "cloud drive",
+  "version": "1.0",
+  "dependencies": {
+    "QT": " 5.9.1 LTS",
+    "PyQt": "5.9",
+    "pyuic": "5.9",
+    "google-api-python-client": "1.6.3",
+    "qmake": "",
+    "sip": "4.19.3"
+  }
+}

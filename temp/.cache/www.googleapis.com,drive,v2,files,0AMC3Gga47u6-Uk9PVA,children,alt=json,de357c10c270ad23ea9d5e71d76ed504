@@ -1,0 +1,47 @@
+status: 200
+expires: Fri, 29 Dec 2017 04:39:54 GMT
+date: Fri, 29 Dec 2017 04:39:54 GMT
+cache-control: private, max-age=0, must-revalidate, no-transform
+etag: "kljkfPLilWKR-FCMd2b3g_UQHPE/jYz1TRdj8ukks2nQaXqonIS4qaQ"
+vary: Origin, X-Origin
+content-type: application/json; charset=UTF-8
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+server: GSE
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-length: 1427
+-content-encoding: gzip
+content-location: https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA/children?alt=json
+
+{
+ "kind": "drive#childList",
+ "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/jYz1TRdj8ukks2nQaXqonIS4qaQ\"",
+ "selfLink": "https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA/children?alt=json",
+ "items": [
+  {
+   "kind": "drive#childReference",
+   "id": "1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA/children/1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef",
+   "childLink": "https://www.googleapis.com/drive/v2/files/1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef"
+  },
+  {
+   "kind": "drive#childReference",
+   "id": "1zIclVsxbbOtrKcligch7C8qv3SRqtIrr",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA/children/1zIclVsxbbOtrKcligch7C8qv3SRqtIrr",
+   "childLink": "https://www.googleapis.com/drive/v2/files/1zIclVsxbbOtrKcligch7C8qv3SRqtIrr"
+  },
+  {
+   "kind": "drive#childReference",
+   "id": "1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA/children/1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+   "childLink": "https://www.googleapis.com/drive/v2/files/1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR"
+  },
+  {
+   "kind": "drive#childReference",
+   "id": "0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA/children/0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+   "childLink": "https://www.googleapis.com/drive/v2/files/0B8C3Gga47u6-OFEtQVdxUW5mTVU"
+  }
+ ]
+}

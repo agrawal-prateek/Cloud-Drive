@@ -1,0 +1,778 @@
+status: 200
+expires: Fri, 29 Dec 2017 04:39:53 GMT
+date: Fri, 29 Dec 2017 04:39:53 GMT
+cache-control: private, max-age=0, must-revalidate, no-transform
+etag: "kljkfPLilWKR-FCMd2b3g_UQHPE/9rEC_qRrr9mu6FV9nLkFxraMONg"
+vary: Origin, X-Origin
+content-type: application/json; charset=UTF-8
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+server: GSE
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-length: 27374
+-content-encoding: gzip
+content-location: https://www.googleapis.com/drive/v2/files?alt=json
+
+{
+ "kind": "drive#fileList",
+ "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/9rEC_qRrr9mu6FV9nLkFxraMONg\"",
+ "selfLink": "https://www.googleapis.com/drive/v2/files?alt=json",
+ "incompleteSearch": false,
+ "items": [
+  {
+   "kind": "drive#file",
+   "id": "1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef",
+   "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/MTUxNDQ3MTI3MDk0NA\"",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef",
+   "webContentLink": "https://drive.google.com/uc?id=1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef&export=download",
+   "alternateLink": "https://drive.google.com/file/d/1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef/view?usp=drivesdk",
+   "embedLink": "https://drive.google.com/file/d/1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef/preview?usp=drivesdk",
+   "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/zip",
+   "title": "root2.zip",
+   "mimeType": "application/zip",
+   "labels": {
+    "starred": true,
+    "hidden": false,
+    "trashed": false,
+    "restricted": false,
+    "viewed": true
+   },
+   "createdDate": "2017-12-28T14:27:39.869Z",
+   "modifiedDate": "2017-12-28T14:27:50.944Z",
+   "modifiedByMeDate": "2017-12-28T14:27:50.944Z",
+   "lastViewedByMeDate": "2017-12-28T14:27:39.869Z",
+   "markedViewedByMeDate": "1970-01-01T00:00:00.000Z",
+   "version": "3",
+   "parents": [
+    {
+     "kind": "drive#parentReference",
+     "id": "0AMC3Gga47u6-Uk9PVA",
+     "selfLink": "https://www.googleapis.com/drive/v2/files/1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef/parents/0AMC3Gga47u6-Uk9PVA",
+     "parentLink": "https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA",
+     "isRoot": true
+    }
+   ],
+   "downloadUrl": "https://doc-14-3g-docs.googleusercontent.com/docs/securesc/29pc4g5m3u4628pnd9hsrcgs9p3r2u40/4oj2l93ltshfpe0qeg2mfaav0g80mmgi/1514520000000/16118565815584902923/16118565815584902923/1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef?e=download&gd=true",
+   "userPermission": {
+    "kind": "drive#permission",
+    "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/YrrUwORBkto8it9Rvyy77WzGfG0\"",
+    "id": "me",
+    "selfLink": "https://www.googleapis.com/drive/v2/files/1Nl_PJULpJ90jChNqVHKJnjGREbPy-_ef/permissions/me",
+    "role": "owner",
+    "type": "user"
+   },
+   "originalFilename": "Copy of root1.zip",
+   "fileExtension": "zip",
+   "md5Checksum": "9c77772e4a1b0cb47ecfe775e72daec2",
+   "fileSize": "4801",
+   "quotaBytesUsed": "4801",
+   "ownerNames": [
+    "Abacus Gla"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Abacus Gla",
+     "picture": {
+      "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+     },
+     "isAuthenticatedUser": true,
+     "permissionId": "16118565815584902923",
+     "emailAddress": "abacussocietygla@gmail.com"
+    }
+   ],
+   "lastModifyingUserName": "Abacus Gla",
+   "lastModifyingUser": {
+    "kind": "drive#user",
+    "displayName": "Abacus Gla",
+    "picture": {
+     "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+    },
+    "isAuthenticatedUser": true,
+    "permissionId": "16118565815584902923",
+    "emailAddress": "abacussocietygla@gmail.com"
+   },
+   "capabilities": {
+    "canCopy": true,
+    "canEdit": true
+   },
+   "editable": true,
+   "copyable": true,
+   "writersCanShare": true,
+   "shared": false,
+   "explicitlyTrashed": false,
+   "appDataContents": false,
+   "headRevisionId": "0B8C3Gga47u6-NjZkOVhkaWNaNXl4NlJSVnB2MGlCZDlRVWZRPQ",
+   "spaces": [
+    "drive"
+   ]
+  },
+  {
+   "kind": "drive#file",
+   "id": "1zIclVsxbbOtrKcligch7C8qv3SRqtIrr",
+   "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/MTUxNDQwMDI1MjE3MA\"",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/1zIclVsxbbOtrKcligch7C8qv3SRqtIrr",
+   "webContentLink": "https://drive.google.com/uc?id=1zIclVsxbbOtrKcligch7C8qv3SRqtIrr&export=download",
+   "alternateLink": "https://drive.google.com/file/d/1zIclVsxbbOtrKcligch7C8qv3SRqtIrr/view?usp=drivesdk",
+   "embedLink": "https://drive.google.com/file/d/1zIclVsxbbOtrKcligch7C8qv3SRqtIrr/preview?usp=drivesdk",
+   "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/zip",
+   "title": "root1.zip",
+   "mimeType": "application/zip",
+   "labels": {
+    "starred": true,
+    "hidden": false,
+    "trashed": false,
+    "restricted": false,
+    "viewed": true
+   },
+   "createdDate": "2017-11-10T20:03:49.035Z",
+   "modifiedDate": "2017-12-27T18:44:12.170Z",
+   "modifiedByMeDate": "2017-12-27T18:44:12.170Z",
+   "lastViewedByMeDate": "2017-12-28T08:28:06.633Z",
+   "markedViewedByMeDate": "1970-01-01T00:00:00.000Z",
+   "version": "34",
+   "parents": [
+    {
+     "kind": "drive#parentReference",
+     "id": "0AMC3Gga47u6-Uk9PVA",
+     "selfLink": "https://www.googleapis.com/drive/v2/files/1zIclVsxbbOtrKcligch7C8qv3SRqtIrr/parents/0AMC3Gga47u6-Uk9PVA",
+     "parentLink": "https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA",
+     "isRoot": true
+    }
+   ],
+   "downloadUrl": "https://doc-0o-3g-docs.googleusercontent.com/docs/securesc/29pc4g5m3u4628pnd9hsrcgs9p3r2u40/fa7lv6m6n395q1bgrf2vp0io8io3ailg/1514520000000/16118565815584902923/16118565815584902923/1zIclVsxbbOtrKcligch7C8qv3SRqtIrr?e=download&gd=true",
+   "userPermission": {
+    "kind": "drive#permission",
+    "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/pVSnlxVT2S95ycMH5V-bW03MlBM\"",
+    "id": "me",
+    "selfLink": "https://www.googleapis.com/drive/v2/files/1zIclVsxbbOtrKcligch7C8qv3SRqtIrr/permissions/me",
+    "role": "owner",
+    "type": "user"
+   },
+   "originalFilename": "google-drive-backup-master.zip",
+   "fileExtension": "zip",
+   "md5Checksum": "9c77772e4a1b0cb47ecfe775e72daec2",
+   "fileSize": "4801",
+   "quotaBytesUsed": "4801",
+   "ownerNames": [
+    "Abacus Gla"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Abacus Gla",
+     "picture": {
+      "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+     },
+     "isAuthenticatedUser": true,
+     "permissionId": "16118565815584902923",
+     "emailAddress": "abacussocietygla@gmail.com"
+    }
+   ],
+   "lastModifyingUserName": "Abacus Gla",
+   "lastModifyingUser": {
+    "kind": "drive#user",
+    "displayName": "Abacus Gla",
+    "picture": {
+     "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+    },
+    "isAuthenticatedUser": true,
+    "permissionId": "16118565815584902923",
+    "emailAddress": "abacussocietygla@gmail.com"
+   },
+   "capabilities": {
+    "canCopy": true,
+    "canEdit": true
+   },
+   "editable": true,
+   "copyable": true,
+   "writersCanShare": true,
+   "shared": false,
+   "explicitlyTrashed": false,
+   "appDataContents": false,
+   "headRevisionId": "0B8C3Gga47u6-aXBFUjNja1dnMk1TbDlSTkdLS1g1d1Q4N0VBPQ",
+   "spaces": [
+    "drive"
+   ]
+  },
+  {
+   "kind": "drive#file",
+   "id": "1yPwnIBQMoOLYRf04PuHS9gojFiKUHerX",
+   "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/MTUxNDM4OTY3NDAwMA\"",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/1yPwnIBQMoOLYRf04PuHS9gojFiKUHerX",
+   "alternateLink": "https://drive.google.com/drive/folders/1yPwnIBQMoOLYRf04PuHS9gojFiKUHerX",
+   "embedLink": "https://drive.google.com/embeddedfolderview?id=1yPwnIBQMoOLYRf04PuHS9gojFiKUHerX",
+   "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder",
+   "title": "subfolder2",
+   "mimeType": "application/vnd.google-apps.folder",
+   "labels": {
+    "starred": false,
+    "hidden": false,
+    "trashed": false,
+    "restricted": false,
+    "viewed": false
+   },
+   "createdDate": "2017-12-27T15:48:02.550Z",
+   "modifiedDate": "2017-12-27T15:47:54.000Z",
+   "modifiedByMeDate": "2017-12-27T15:47:54.000Z",
+   "markedViewedByMeDate": "1970-01-01T00:00:00.000Z",
+   "version": "1",
+   "parents": [
+    {
+     "kind": "drive#parentReference",
+     "id": "1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+     "selfLink": "https://www.googleapis.com/drive/v2/files/1yPwnIBQMoOLYRf04PuHS9gojFiKUHerX/parents/1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+     "parentLink": "https://www.googleapis.com/drive/v2/files/1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+     "isRoot": false
+    }
+   ],
+   "userPermission": {
+    "kind": "drive#permission",
+    "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/TnG4FtE3Y8VfrK1NqUyjpTnKKag\"",
+    "id": "me",
+    "selfLink": "https://www.googleapis.com/drive/v2/files/1yPwnIBQMoOLYRf04PuHS9gojFiKUHerX/permissions/me",
+    "role": "owner",
+    "type": "user"
+   },
+   "quotaBytesUsed": "0",
+   "ownerNames": [
+    "Abacus Gla"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Abacus Gla",
+     "picture": {
+      "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+     },
+     "isAuthenticatedUser": true,
+     "permissionId": "16118565815584902923",
+     "emailAddress": "abacussocietygla@gmail.com"
+    }
+   ],
+   "lastModifyingUserName": "Abacus Gla",
+   "lastModifyingUser": {
+    "kind": "drive#user",
+    "displayName": "Abacus Gla",
+    "picture": {
+     "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+    },
+    "isAuthenticatedUser": true,
+    "permissionId": "16118565815584902923",
+    "emailAddress": "abacussocietygla@gmail.com"
+   },
+   "capabilities": {
+    "canCopy": false,
+    "canEdit": true
+   },
+   "editable": true,
+   "copyable": false,
+   "writersCanShare": true,
+   "shared": false,
+   "explicitlyTrashed": false,
+   "appDataContents": false,
+   "spaces": [
+    "drive"
+   ]
+  },
+  {
+   "kind": "drive#file",
+   "id": "1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+   "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/MTUxNDM4OTY2ODAwMA\"",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+   "alternateLink": "https://drive.google.com/drive/folders/1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+   "embedLink": "https://drive.google.com/embeddedfolderview?id=1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+   "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder",
+   "title": "folder2",
+   "mimeType": "application/vnd.google-apps.folder",
+   "labels": {
+    "starred": false,
+    "hidden": false,
+    "trashed": false,
+    "restricted": false,
+    "viewed": true
+   },
+   "createdDate": "2017-12-27T15:47:55.789Z",
+   "modifiedDate": "2017-12-27T15:47:48.000Z",
+   "modifiedByMeDate": "2017-12-27T15:47:48.000Z",
+   "lastViewedByMeDate": "2017-12-28T14:28:41.422Z",
+   "markedViewedByMeDate": "1970-01-01T00:00:00.000Z",
+   "version": "8",
+   "parents": [
+    {
+     "kind": "drive#parentReference",
+     "id": "0AMC3Gga47u6-Uk9PVA",
+     "selfLink": "https://www.googleapis.com/drive/v2/files/1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR/parents/0AMC3Gga47u6-Uk9PVA",
+     "parentLink": "https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA",
+     "isRoot": true
+    }
+   ],
+   "userPermission": {
+    "kind": "drive#permission",
+    "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/Sj22Taq6J63JlDHHwaGtwl7fNsw\"",
+    "id": "me",
+    "selfLink": "https://www.googleapis.com/drive/v2/files/1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR/permissions/me",
+    "role": "owner",
+    "type": "user"
+   },
+   "quotaBytesUsed": "0",
+   "ownerNames": [
+    "Abacus Gla"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Abacus Gla",
+     "picture": {
+      "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+     },
+     "isAuthenticatedUser": true,
+     "permissionId": "16118565815584902923",
+     "emailAddress": "abacussocietygla@gmail.com"
+    }
+   ],
+   "lastModifyingUserName": "Abacus Gla",
+   "lastModifyingUser": {
+    "kind": "drive#user",
+    "displayName": "Abacus Gla",
+    "picture": {
+     "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+    },
+    "isAuthenticatedUser": true,
+    "permissionId": "16118565815584902923",
+    "emailAddress": "abacussocietygla@gmail.com"
+   },
+   "capabilities": {
+    "canCopy": false,
+    "canEdit": true
+   },
+   "editable": true,
+   "copyable": false,
+   "writersCanShare": true,
+   "shared": false,
+   "explicitlyTrashed": false,
+   "appDataContents": false,
+   "spaces": [
+    "drive"
+   ]
+  },
+  {
+   "kind": "drive#file",
+   "id": "1_MqJFEx1OKLlG_Pj_YMxmoyf2oaIJr-6",
+   "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/MTUxNDM4NTI5MjAwMA\"",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/1_MqJFEx1OKLlG_Pj_YMxmoyf2oaIJr-6",
+   "webContentLink": "https://drive.google.com/uc?id=1_MqJFEx1OKLlG_Pj_YMxmoyf2oaIJr-6&export=download",
+   "alternateLink": "https://drive.google.com/file/d/1_MqJFEx1OKLlG_Pj_YMxmoyf2oaIJr-6/view?usp=drivesdk",
+   "embedLink": "https://drive.google.com/file/d/1_MqJFEx1OKLlG_Pj_YMxmoyf2oaIJr-6/preview?usp=drivesdk",
+   "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/zip",
+   "title": "file2.zip",
+   "mimeType": "application/zip",
+   "labels": {
+    "starred": false,
+    "hidden": false,
+    "trashed": false,
+    "restricted": false,
+    "viewed": false
+   },
+   "createdDate": "2017-12-27T15:48:26.660Z",
+   "modifiedDate": "2017-12-27T14:34:52.000Z",
+   "modifiedByMeDate": "2017-12-27T14:34:52.000Z",
+   "markedViewedByMeDate": "1970-01-01T00:00:00.000Z",
+   "version": "3",
+   "parents": [
+    {
+     "kind": "drive#parentReference",
+     "id": "1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+     "selfLink": "https://www.googleapis.com/drive/v2/files/1_MqJFEx1OKLlG_Pj_YMxmoyf2oaIJr-6/parents/1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+     "parentLink": "https://www.googleapis.com/drive/v2/files/1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+     "isRoot": false
+    }
+   ],
+   "downloadUrl": "https://doc-10-3g-docs.googleusercontent.com/docs/securesc/29pc4g5m3u4628pnd9hsrcgs9p3r2u40/r0lrn7touut9520nu7gh1taoccia4pts/1514520000000/16118565815584902923/16118565815584902923/1_MqJFEx1OKLlG_Pj_YMxmoyf2oaIJr-6?e=download&gd=true",
+   "userPermission": {
+    "kind": "drive#permission",
+    "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/7wU7cz_hTqUr6nUSTIJC0oWsMEU\"",
+    "id": "me",
+    "selfLink": "https://www.googleapis.com/drive/v2/files/1_MqJFEx1OKLlG_Pj_YMxmoyf2oaIJr-6/permissions/me",
+    "role": "owner",
+    "type": "user"
+   },
+   "originalFilename": "root1.zip",
+   "fileExtension": "zip",
+   "md5Checksum": "9c77772e4a1b0cb47ecfe775e72daec2",
+   "fileSize": "4801",
+   "quotaBytesUsed": "4801",
+   "ownerNames": [
+    "Abacus Gla"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Abacus Gla",
+     "picture": {
+      "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+     },
+     "isAuthenticatedUser": true,
+     "permissionId": "16118565815584902923",
+     "emailAddress": "abacussocietygla@gmail.com"
+    }
+   ],
+   "lastModifyingUserName": "Abacus Gla",
+   "lastModifyingUser": {
+    "kind": "drive#user",
+    "displayName": "Abacus Gla",
+    "picture": {
+     "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+    },
+    "isAuthenticatedUser": true,
+    "permissionId": "16118565815584902923",
+    "emailAddress": "abacussocietygla@gmail.com"
+   },
+   "capabilities": {
+    "canCopy": true,
+    "canEdit": true
+   },
+   "editable": true,
+   "copyable": true,
+   "writersCanShare": true,
+   "shared": false,
+   "explicitlyTrashed": false,
+   "appDataContents": false,
+   "headRevisionId": "0B8C3Gga47u6-NVJCWVZVRGJyTE5iWXV1d2Y2VmF4Z1daV0J3PQ",
+   "spaces": [
+    "drive"
+   ]
+  },
+  {
+   "kind": "drive#file",
+   "id": "13n9Z-SXD7eh0WjRx2pmCu2b4pukJkJIx",
+   "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/MTUxNDM4NTI5MjAwMA\"",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/13n9Z-SXD7eh0WjRx2pmCu2b4pukJkJIx",
+   "webContentLink": "https://drive.google.com/uc?id=13n9Z-SXD7eh0WjRx2pmCu2b4pukJkJIx&export=download",
+   "alternateLink": "https://drive.google.com/file/d/13n9Z-SXD7eh0WjRx2pmCu2b4pukJkJIx/view?usp=drivesdk",
+   "embedLink": "https://drive.google.com/file/d/13n9Z-SXD7eh0WjRx2pmCu2b4pukJkJIx/preview?usp=drivesdk",
+   "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/zip",
+   "title": "file1.zip",
+   "mimeType": "application/zip",
+   "labels": {
+    "starred": false,
+    "hidden": false,
+    "trashed": false,
+    "restricted": false,
+    "viewed": false
+   },
+   "createdDate": "2017-12-27T15:49:06.387Z",
+   "modifiedDate": "2017-12-27T14:34:52.000Z",
+   "modifiedByMeDate": "2017-12-27T14:34:52.000Z",
+   "markedViewedByMeDate": "1970-01-01T00:00:00.000Z",
+   "version": "2",
+   "parents": [
+    {
+     "kind": "drive#parentReference",
+     "id": "0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+     "selfLink": "https://www.googleapis.com/drive/v2/files/13n9Z-SXD7eh0WjRx2pmCu2b4pukJkJIx/parents/0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+     "parentLink": "https://www.googleapis.com/drive/v2/files/0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+     "isRoot": false
+    }
+   ],
+   "downloadUrl": "https://doc-08-3g-docs.googleusercontent.com/docs/securesc/29pc4g5m3u4628pnd9hsrcgs9p3r2u40/4hl91jvpaq74rfcbj0ku5tjh0av1bkm6/1514520000000/16118565815584902923/16118565815584902923/13n9Z-SXD7eh0WjRx2pmCu2b4pukJkJIx?e=download&gd=true",
+   "userPermission": {
+    "kind": "drive#permission",
+    "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/1vj00Bnv-WPhwxTMJou8-RJTuJw\"",
+    "id": "me",
+    "selfLink": "https://www.googleapis.com/drive/v2/files/13n9Z-SXD7eh0WjRx2pmCu2b4pukJkJIx/permissions/me",
+    "role": "owner",
+    "type": "user"
+   },
+   "originalFilename": "file1.zip",
+   "fileExtension": "zip",
+   "md5Checksum": "9c77772e4a1b0cb47ecfe775e72daec2",
+   "fileSize": "4801",
+   "quotaBytesUsed": "4801",
+   "ownerNames": [
+    "Abacus Gla"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Abacus Gla",
+     "picture": {
+      "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+     },
+     "isAuthenticatedUser": true,
+     "permissionId": "16118565815584902923",
+     "emailAddress": "abacussocietygla@gmail.com"
+    }
+   ],
+   "lastModifyingUserName": "Abacus Gla",
+   "lastModifyingUser": {
+    "kind": "drive#user",
+    "displayName": "Abacus Gla",
+    "picture": {
+     "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+    },
+    "isAuthenticatedUser": true,
+    "permissionId": "16118565815584902923",
+    "emailAddress": "abacussocietygla@gmail.com"
+   },
+   "capabilities": {
+    "canCopy": true,
+    "canEdit": true
+   },
+   "editable": true,
+   "copyable": true,
+   "writersCanShare": true,
+   "shared": false,
+   "explicitlyTrashed": false,
+   "appDataContents": false,
+   "headRevisionId": "0B8C3Gga47u6-b2ZIc0VCT0ZJQjBldWN6enZEVGpPOFBMZTAwPQ",
+   "spaces": [
+    "drive"
+   ]
+  },
+  {
+   "kind": "drive#file",
+   "id": "1SNjuC7uu_pP7FMRxW3OtCqtAIODxkHVt",
+   "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/MTUxMTA4MDk2NTM3Mg\"",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/1SNjuC7uu_pP7FMRxW3OtCqtAIODxkHVt",
+   "alternateLink": "https://drive.google.com/drive/folders/1SNjuC7uu_pP7FMRxW3OtCqtAIODxkHVt",
+   "embedLink": "https://drive.google.com/embeddedfolderview?id=1SNjuC7uu_pP7FMRxW3OtCqtAIODxkHVt",
+   "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder+25",
+   "title": "subfolder1",
+   "mimeType": "application/vnd.google-apps.folder",
+   "labels": {
+    "starred": false,
+    "hidden": false,
+    "trashed": false,
+    "restricted": false,
+    "viewed": true
+   },
+   "createdDate": "2017-11-13T19:43:44.931Z",
+   "modifiedDate": "2017-11-19T08:42:45.372Z",
+   "modifiedByMeDate": "2017-11-19T08:42:45.372Z",
+   "lastViewedByMeDate": "2017-12-27T15:01:37.360Z",
+   "markedViewedByMeDate": "1970-01-01T00:00:00.000Z",
+   "version": "9",
+   "parents": [
+    {
+     "kind": "drive#parentReference",
+     "id": "0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+     "selfLink": "https://www.googleapis.com/drive/v2/files/1SNjuC7uu_pP7FMRxW3OtCqtAIODxkHVt/parents/0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+     "parentLink": "https://www.googleapis.com/drive/v2/files/0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+     "isRoot": false
+    }
+   ],
+   "userPermission": {
+    "kind": "drive#permission",
+    "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/KPq8VsqohRmtCX-4l55SAxg-_rY\"",
+    "id": "me",
+    "selfLink": "https://www.googleapis.com/drive/v2/files/1SNjuC7uu_pP7FMRxW3OtCqtAIODxkHVt/permissions/me",
+    "role": "owner",
+    "type": "user"
+   },
+   "quotaBytesUsed": "0",
+   "ownerNames": [
+    "Abacus Gla"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Abacus Gla",
+     "picture": {
+      "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+     },
+     "isAuthenticatedUser": true,
+     "permissionId": "16118565815584902923",
+     "emailAddress": "abacussocietygla@gmail.com"
+    }
+   ],
+   "lastModifyingUserName": "Abacus Gla",
+   "lastModifyingUser": {
+    "kind": "drive#user",
+    "displayName": "Abacus Gla",
+    "picture": {
+     "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+    },
+    "isAuthenticatedUser": true,
+    "permissionId": "16118565815584902923",
+    "emailAddress": "abacussocietygla@gmail.com"
+   },
+   "capabilities": {
+    "canCopy": false,
+    "canEdit": true
+   },
+   "editable": true,
+   "copyable": false,
+   "writersCanShare": true,
+   "shared": false,
+   "explicitlyTrashed": false,
+   "appDataContents": false,
+   "spaces": [
+    "drive"
+   ]
+  },
+  {
+   "kind": "drive#file",
+   "id": "0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+   "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/MTUxMTA3NjczNDc4OA\"",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+   "alternateLink": "https://drive.google.com/drive/folders/0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+   "embedLink": "https://drive.google.com/embeddedfolderview?id=0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+   "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/vnd.google-apps.folder",
+   "title": "folder1",
+   "mimeType": "application/vnd.google-apps.folder",
+   "labels": {
+    "starred": false,
+    "hidden": false,
+    "trashed": false,
+    "restricted": false,
+    "viewed": true
+   },
+   "createdDate": "2017-10-16T05:14:33.971Z",
+   "modifiedDate": "2017-11-19T07:32:14.788Z",
+   "modifiedByMeDate": "2017-11-19T07:32:14.788Z",
+   "lastViewedByMeDate": "2017-12-28T14:28:38.745Z",
+   "markedViewedByMeDate": "1970-01-01T00:00:00.000Z",
+   "version": "107",
+   "parents": [
+    {
+     "kind": "drive#parentReference",
+     "id": "0AMC3Gga47u6-Uk9PVA",
+     "selfLink": "https://www.googleapis.com/drive/v2/files/0B8C3Gga47u6-OFEtQVdxUW5mTVU/parents/0AMC3Gga47u6-Uk9PVA",
+     "parentLink": "https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA",
+     "isRoot": true
+    }
+   ],
+   "userPermission": {
+    "kind": "drive#permission",
+    "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/uhs3jCSEmlM18LZfDzHFT-u75AA\"",
+    "id": "me",
+    "selfLink": "https://www.googleapis.com/drive/v2/files/0B8C3Gga47u6-OFEtQVdxUW5mTVU/permissions/me",
+    "role": "owner",
+    "type": "user"
+   },
+   "quotaBytesUsed": "0",
+   "ownerNames": [
+    "Abacus Gla"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Abacus Gla",
+     "picture": {
+      "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+     },
+     "isAuthenticatedUser": true,
+     "permissionId": "16118565815584902923",
+     "emailAddress": "abacussocietygla@gmail.com"
+    }
+   ],
+   "lastModifyingUserName": "Abacus Gla",
+   "lastModifyingUser": {
+    "kind": "drive#user",
+    "displayName": "Abacus Gla",
+    "picture": {
+     "url": "https://lh3.googleusercontent.com/-f5pVFhZGOyo/AAAAAAAAAAI/AAAAAAAAACI/gXcEnvggM4k/s64/photo.jpg"
+    },
+    "isAuthenticatedUser": true,
+    "permissionId": "16118565815584902923",
+    "emailAddress": "abacussocietygla@gmail.com"
+   },
+   "capabilities": {
+    "canCopy": false,
+    "canEdit": true
+   },
+   "editable": true,
+   "copyable": false,
+   "writersCanShare": true,
+   "shared": false,
+   "explicitlyTrashed": false,
+   "appDataContents": false,
+   "spaces": [
+    "drive"
+   ]
+  },
+  {
+   "kind": "drive#file",
+   "id": "0B8blgvk4_GKjTVZfaTlMN1prMWM",
+   "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/MTUwODMzMDU3MjY2MQ\"",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/0B8blgvk4_GKjTVZfaTlMN1prMWM",
+   "webContentLink": "https://drive.google.com/uc?id=0B8blgvk4_GKjTVZfaTlMN1prMWM&export=download",
+   "alternateLink": "https://drive.google.com/file/d/0B8blgvk4_GKjTVZfaTlMN1prMWM/view?usp=drivesdk",
+   "embedLink": "https://drive.google.com/file/d/0B8blgvk4_GKjTVZfaTlMN1prMWM/preview?usp=drivesdk",
+   "iconLink": "https://drive-thirdparty.googleusercontent.com/16/type/application/pdf",
+   "thumbnailLink": "https://lh3.googleusercontent.com/B5gQfrwW9GNTVZvTevlm5dsua0zljyH0E_uikmWeIRhzbAK0MyamVOvzvjZL7qjFEXWIJw=s220",
+   "title": "Google-Resume.pdf",
+   "mimeType": "application/pdf",
+   "labels": {
+    "starred": false,
+    "hidden": false,
+    "trashed": false,
+    "restricted": false,
+    "viewed": true
+   },
+   "createdDate": "2017-10-18T12:42:37.425Z",
+   "modifiedDate": "2017-10-18T12:42:52.661Z",
+   "lastViewedByMeDate": "2017-12-28T14:30:35.901Z",
+   "markedViewedByMeDate": "1970-01-01T00:00:00.000Z",
+   "sharedWithMeDate": "2017-10-19T21:42:00.549Z",
+   "version": "8114",
+   "parents": [],
+   "downloadUrl": "https://doc-0s-78-docs.googleusercontent.com/docs/securesc/29pc4g5m3u4628pnd9hsrcgs9p3r2u40/43002cp14t2uop9pk06ukts8ovcig2l4/1514520000000/06206430204667898595/16118565815584902923/0B8blgvk4_GKjTVZfaTlMN1prMWM?e=download&gd=true",
+   "userPermission": {
+    "kind": "drive#permission",
+    "etag": "\"kljkfPLilWKR-FCMd2b3g_UQHPE/EhSYA9qya-73WloaYoxwoVJlZOk\"",
+    "id": "me",
+    "selfLink": "https://www.googleapis.com/drive/v2/files/0B8blgvk4_GKjTVZfaTlMN1prMWM/permissions/me",
+    "role": "reader",
+    "type": "user"
+   },
+   "originalFilename": "Google-Resume.pdf",
+   "fileExtension": "pdf",
+   "md5Checksum": "5cfc37ea9e7a1b29f7b84493674adb6a",
+   "fileSize": "730584",
+   "quotaBytesUsed": "0",
+   "ownerNames": [
+    "Mayank Bhura"
+   ],
+   "owners": [
+    {
+     "kind": "drive#user",
+     "displayName": "Mayank Bhura",
+     "picture": {
+      "url": "https://lh5.googleusercontent.com/-GnVg5-g6ixE/AAAAAAAAAAI/AAAAAAAAMIE/6NMTDbZESrM/s64/photo.jpg"
+     },
+     "isAuthenticatedUser": false,
+     "permissionId": "06206430204667898595",
+     "emailAddress": "pc.mayank@gmail.com"
+    }
+   ],
+   "lastModifyingUserName": "Mayank Bhura",
+   "lastModifyingUser": {
+    "kind": "drive#user",
+    "displayName": "Mayank Bhura",
+    "picture": {
+     "url": "https://lh5.googleusercontent.com/-GnVg5-g6ixE/AAAAAAAAAAI/AAAAAAAAMIE/6NMTDbZESrM/s64/photo.jpg"
+    },
+    "isAuthenticatedUser": false,
+    "permissionId": "06206430204667898595",
+    "emailAddress": "pc.mayank@gmail.com"
+   },
+   "capabilities": {
+    "canCopy": true,
+    "canEdit": false
+   },
+   "editable": false,
+   "copyable": true,
+   "writersCanShare": true,
+   "shared": true,
+   "explicitlyTrashed": false,
+   "appDataContents": false,
+   "headRevisionId": "0B8blgvk4_GKjK04yNmUxL2UzQURGWUdGMk55aEFPSkk1R0w4PQ",
+   "spaces": [
+    "drive"
+   ]
+  }
+ ]
+}

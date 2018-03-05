@@ -1,0 +1,21 @@
+status: 200
+expires: Thu, 28 Dec 2017 14:33:40 GMT
+date: Thu, 28 Dec 2017 14:33:40 GMT
+cache-control: private, max-age=0, must-revalidate, no-transform
+vary: Origin, X-Origin
+content-type: application/json; charset=UTF-8
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+server: GSE
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-length: 128
+-content-encoding: gzip
+content-location: https://www.googleapis.com/drive/v3/files/root?alt=json
+
+{
+ "kind": "drive#file",
+ "id": "0AMC3Gga47u6-Uk9PVA",
+ "name": "My Drive",
+ "mimeType": "application/vnd.google-apps.folder"
+}

@@ -1,0 +1,27 @@
+status: 200
+expires: Wed, 27 Dec 2017 18:41:14 GMT
+date: Wed, 27 Dec 2017 18:41:14 GMT
+cache-control: private, max-age=0, must-revalidate, no-transform
+etag: "kljkfPLilWKR-FCMd2b3g_UQHPE/qlfsfMW0yzf9Y_Z_7JpeqNc39r8"
+vary: Origin, X-Origin
+content-type: application/json; charset=UTF-8
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+server: GSE
+alt-svc: hq=":443"; ma=2592000; quic=51303431; quic=51303339; quic=51303338; quic=51303337; quic=51303335,quic=":443"; ma=2592000; v="41,39,38,37,35"
+content-length: 319
+-content-encoding: gzip
+content-location: https://www.googleapis.com/drive/v2/files/1zIclVsxbbOtrKcligch7C8qv3SRqtIrr?fields=parents&alt=json
+
+{
+ "parents": [
+  {
+   "kind": "drive#parentReference",
+   "id": "0AMC3Gga47u6-Uk9PVA",
+   "selfLink": "https://www.googleapis.com/drive/v2/files/1zIclVsxbbOtrKcligch7C8qv3SRqtIrr/parents/0AMC3Gga47u6-Uk9PVA",
+   "parentLink": "https://www.googleapis.com/drive/v2/files/0AMC3Gga47u6-Uk9PVA",
+   "isRoot": true
+  }
+ ]
+}

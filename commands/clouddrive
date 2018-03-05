@@ -1,0 +1,37 @@
+#!/usr/bin/env python3
+
+import argparse
+import os
+
+
+def define_arguments():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-ln", "--login", help="Login to Cloud Drive by your Google Account", action="store_true")
+    parser.add_argument("-lg", "--logout", help="Logout from Cloud Drive", action="store_true")
+    parser.add_argument("-r", "--relogin",
+                        help="Logout from previous account on Cloud Drive and Login to another Google "
+                             "Account", action="store_true")
+    parser.add_argument("-f", "--fix", help="Reinstall Cloud Drive or fix the errors", action="store_true")
+    parser.add_argument("-u", "--uninstall", help="Uninstall the Cloud Drive", action="store_true")
+    parser.add_argument("-a", "--about", help="About Cloud Drive", action="store_true")
+
+    arguments = parser.parse_args()
+    return arguments
+
+
+args = define_arguments()
+
+if args.login:
+    os.system('/usr/local/apps/cloud\ drive/ui/login.py')
+elif args.logout:
+    os.system('/usr/local/apps/cloud\ drive/ui/logout.py')
+elif args.relogin:
+    os.system('/usr/local/apps/cloud\ drive/ui/reLogin.py')
+elif args.fix:
+    os.system('/usr/local/apps/cloud\ drive/ui/reinstall.py')
+elif args.uninstall:
+    os.system('/usr/local/apps/cloud\ drive/ui/uninstall.py')
+elif args.about:
+    os.system('/usr/local/apps/cloud\ drive/ui/About.py')
+else:
+    os.system('/usr/local/apps/cloud\ drive/ui/Cloud\ Drive.py')

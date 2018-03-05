@@ -1,0 +1,75 @@
+{
+  "id": "0AMC3Gga47u6-Uk9PVA",
+  "title": "My Drive",
+  "mimeType": "application/vnd.google-apps.folder",
+  "modifiedDate": "2017-07-21T16:47:29.000Z",
+  "parent": [],
+  "children": [
+    {
+      "id": "1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+      "title": "folder2",
+      "mimeType": "application/vnd.google-apps.folder",
+      "modifiedDate": "2017-12-27T15:47:48.000Z",
+      "parent": "0AMC3Gga47u6-Uk9PVA",
+      "children": [
+        {
+          "id": "1yPwnIBQMoOLYRf04PuHS9gojFiKUHerX",
+          "title": "subfolder2",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modifiedDate": "2017-12-27T15:47:54.000Z",
+          "parent": "1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+          "children": []
+        },
+        {
+          "id": "1_MqJFEx1OKLlG_Pj_YMxmoyf2oaIJr-6",
+          "title": "file2.zip",
+          "mimeType": "application/zip",
+          "modifiedDate": "2017-12-27T14:34:52.000Z",
+          "parent": "1QhiHDgeS8u82C3gx1d37jNWg42Qax1sR",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "1zIclVsxbbOtrKcligch7C8qv3SRqtIrr",
+      "title": "root1.zip",
+      "mimeType": "application/zip",
+      "modifiedDate": "2017-12-27T14:34:52.000Z",
+      "parent": "0AMC3Gga47u6-Uk9PVA",
+      "children": []
+    },
+    {
+      "id": "1zbVS9XVjooukLVTLkkzb0Z972E_scdxo",
+      "title": "root2.zip",
+      "mimeType": "application/zip",
+      "modifiedDate": "2017-12-27T14:34:52.000Z",
+      "parent": "0AMC3Gga47u6-Uk9PVA",
+      "children": []
+    },
+    {
+      "id": "0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+      "title": "folder1",
+      "mimeType": "application/vnd.google-apps.folder",
+      "modifiedDate": "2017-11-19T07:32:14.788Z",
+      "parent": "0AMC3Gga47u6-Uk9PVA",
+      "children": [
+        {
+          "id": "13n9Z-SXD7eh0WjRx2pmCu2b4pukJkJIx",
+          "title": "file1.zip",
+          "mimeType": "application/zip",
+          "modifiedDate": "2017-12-27T14:34:52.000Z",
+          "parent": "0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+          "children": []
+        },
+        {
+          "id": "1SNjuC7uu_pP7FMRxW3OtCqtAIODxkHVt",
+          "title": "subfolder1",
+          "mimeType": "application/vnd.google-apps.folder",
+          "modifiedDate": "2017-11-19T08:42:45.372Z",
+          "parent": "0B8C3Gga47u6-OFEtQVdxUW5mTVU",
+          "children": []
+        }
+      ]
+    }
+  ]
+}

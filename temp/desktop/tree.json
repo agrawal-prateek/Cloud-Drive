@@ -1,0 +1,66 @@
+{
+  "title": "Google Drive",
+  "innodeNo": 67133745,
+  "modify": 1514390677.5240164,
+  "mimeType": "inode/directory",
+  "children": [
+    {
+      "title": "folder2",
+      "innodeNo": 134339185,
+      "modify": 1514390673.6646745,
+      "mimeType": "inode/directory",
+      "children": [
+        {
+          "title": "subfolder2",
+          "innodeNo": 201354519,
+          "modify": 1514390673.6646745,
+          "mimeType": "inode/directory",
+          "children": []
+        },
+        {
+          "title": "file2.zip",
+          "innodeNo": 134339187,
+          "modify": 1514390674.6535475,
+          "mimeType": "file",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "root1.zip",
+      "innodeNo": 67151210,
+      "modify": 1514390676.2909675,
+      "mimeType": "file",
+      "children": []
+    },
+    {
+      "title": "root2.zip",
+      "innodeNo": 67167545,
+      "modify": 1514390677.5240164,
+      "mimeType": "file",
+      "children": []
+    },
+    {
+      "title": "folder1",
+      "innodeNo": 1311,
+      "modify": 1514390678.3447056,
+      "mimeType": "inode/directory",
+      "children": [
+        {
+          "title": "file1.zip",
+          "innodeNo": 1312,
+          "modify": 1514390678.340702,
+          "mimeType": "file",
+          "children": []
+        },
+        {
+          "title": "subfolder1",
+          "innodeNo": 67899117,
+          "modify": 1514390678.3447056,
+          "mimeType": "inode/directory",
+          "children": []
+        }
+      ]
+    }
+  ]
+}
